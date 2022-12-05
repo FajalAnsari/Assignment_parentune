@@ -1,12 +1,13 @@
 # How to run the project 
 
-Before clonig the project, install.
+install these .
 
 Step 1 - Dependencies
-You will need:
-
+React 
 Git
 node
+bootstrap": ^5.2.3
+react-router: ^6.4.4
 yarn (Optional. Not Required if you use NPM)
 Please install them if you don't have them already.
 
