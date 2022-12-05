@@ -1,16 +1,15 @@
 # How to run the project 
 
 install these .
-
-Step 1 - Dependencies
-
-React 
-Git
-node
-bootstrap": ^5.2.3
-react-router: ^6.4.4
+1. React 
+2. Git
+3. node
+4. bootstrap": ^5.2.3
+5. react-router: ^6.4.4
 yarn (Optional. Not Required if you use NPM)
 Please install them if you don't have them already.
+
+Step 1 - Install Above Dependencies
 
 Step 2 - Clone the repository
 $ git clone https://github.com/FajalAnsari/Assignment_parentune.git
