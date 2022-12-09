@@ -2,7 +2,6 @@ import React from 'react';
 import './Contact.css';
 import { useState } from 'react';
 import Footer from '../Footer/Footer';
-import Navbar from '../Navbar/Navbar';
 
 function Contact() {
   const [data, setData] = useState({

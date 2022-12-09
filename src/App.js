@@ -7,20 +7,19 @@ import Blog from './components/RecentPosts/RecentPosts';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 function App() {
-  return (
-    <>	
-  
-    <BrowserRouter>
-    <Navbar/>
+	return (
+		<>
+			<BrowserRouter>
+				<Navbar />
 				<Routes>
-					<Route  path="/" element={<Home />} />
+					<Route path="/" element={<Home />} />
 					<Route exact path="/works" element={<Works />} />
 					<Route exact path="/contact" element={<Contact />} />
 					<Route exact path="/blog" element={<Blog />} />
 				</Routes>
 			</BrowserRouter>
-    </>
-  );
+		</>
+	);
 }
 
 export default App;
